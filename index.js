@@ -13,8 +13,12 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.use("/emps", empsRouter);
+app.use("/emps", empsRouter); 
+//This is just a comment to check git
 app.use("/admin", adminRouter);
+
+//Another comment to check git
+
 
 app.listen(port, ()=>{
     console.log("Server Started..");
