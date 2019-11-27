@@ -1,0 +1,7 @@
+{
+    "port": 9898,
+    "host": "localhost",
+    "database": "DevOps",
+    "user": "root",
+    "password": "root"
+}
